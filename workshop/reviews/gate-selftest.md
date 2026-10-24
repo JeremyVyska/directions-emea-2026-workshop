@@ -4,7 +4,7 @@ reviewed_files: [workshop/AmuseYou/RentalOperations/src/BookingMgt.Codeunit.al]
 bcquality_commit: 0000000
 outcome: completed
 blockers_found: 1
-blockers: 0
+blockers: 1
 ---
 
 # BCQuality Review: gate-selftest
