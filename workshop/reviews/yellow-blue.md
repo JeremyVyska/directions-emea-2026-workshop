@@ -1,7 +1,7 @@
 ---
 reviewed_with: Codex (GPT-6.1)
 reviewed_files: [workshop/AmuseYou/RentalOperations/src/BookingMgt.Codeunit.al, workshop/AmuseYou/RentalOperations/src/AvailabilityMgt.Codeunit.al, workshop/AmuseYou/RentalOperations/src/WeatherApiClient.Codeunit.al, workshop/AmuseYou/RentalOperations/src/BookingList.Page.al, workshop/AmuseYou/RentalOperations/src/RentalUpgrade.Codeunit.al, workshop/AmuseYou/BookingCore/src/BookingStatus.Enum.al, workshop/AmuseYou/BookingCore.Test/src/BookingTests.Codeunit.al, workshop/AmuseYou/RentalOperations.Test/src/UnitTests/AvailabilityTests.Codeunit.al, workshop/AmuseYou/RentalOperations.Test/src/UnitTests/BookingMgtTests.Codeunit.al, workshop/AmuseYou/Integration.Test/src/EndToEndBookingTests.Codeunit.al]
-bcquality_commit: f0ab5cf
+bcquality_commit: 4251fba
 outcome: completed
 blockers_found: 2
 blockers: 2
@@ -32,6 +32,7 @@ blockers: 2
 - minor · high · workshop/AmuseYou/RentalOperations.Test/src/UnitTests/AvailabilityTests.Codeunit.al:6, 14, 31, 50 · The test codeunit has no FEATURE or SCENARIO tags, making the tested business claims harder to scan. · microsoft/knowledge/testing/test-feature-scenario-tags.md
 - minor · high · workshop/AmuseYou/RentalOperations.Test/src/UnitTests/BookingMgtTests.Codeunit.al:6, 14, 40 · The test codeunit has no FEATURE or SCENARIO tags, making the tested business claims harder to scan. · microsoft/knowledge/testing/test-feature-scenario-tags.md
 - minor · high · workshop/AmuseYou/Integration.Test/src/EndToEndBookingTests.Codeunit.al:6 · The integration test codeunit has SCENARIO tags but no codeunit-level FEATURE tag. · microsoft/knowledge/testing/test-feature-scenario-tags.md
+- info · high · workshop/AmuseYou/RentalOperations/src/AvailabilityMgt.Codeunit.al:19, 20, 22 · The measured 250% availability slowdown is documented as a customer-safety trade-off; respect that decision while reviewing separate implementation issues on their own evidence. · custom/knowledge/performance/respect-documented-safety-tradeoffs.md
 
 Suppressed: None.
 
